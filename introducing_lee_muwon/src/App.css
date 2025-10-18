@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+    background-color: #282c34; 
+    color: white; 
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-logo {
+    font-size: 1.5rem; 
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.header a {
+  color:white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-nav a {
+    color: white; 
+    text-decoration: none; 
+    margin-left: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header-nav a:hover {
+    color: #61dafb; /* React Blue */
+}
+
+.main-content {
+    flex-grow: 1; 
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.section-alt {
+    background-color: #ffffff;
+}
+
+.project-card {
+    border: 1px solid #ddd; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.skill-list {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #e0e7ff; 
+    color: #1a237e;
+    padding: 5px 12px; 
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.cta-button {
+    padding: 12px 25px; 
+    background-color: #61dafb; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    color: #282c34;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #4dc7e0;
+}
+
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 1.5rem; 
+    text-align: center; 
+    width: 100%;
+}
+
+.footer-link {
+    color: #88aaff; 
+    text-decoration: none; 
+    margin: 0 0.5rem;
 }
