@@ -1,0 +1,72 @@
+.header-logo a {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.3rem;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.header {
+    background-color: #ffffff; 
+    color: white; 
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-logo {
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+.header a {
+  color:rgb(146, 0, 127);
+  text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 2.5rem;
+    height: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-decoration: none; 
+    font-weight: normal;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.header-nav a:hover {
+    color: rgb(146, 0, 127);
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.header.hide {
+    transform: translateY(-100%);
+}

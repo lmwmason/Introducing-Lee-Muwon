@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+import '../../style/footer.css'
+
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 

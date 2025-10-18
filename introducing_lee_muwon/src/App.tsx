@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Get Style File!
-import './App.css'; 
+import './style/App.css'; 
 
 // Get layout File!
 import Header from './components/layout/header';
@@ -9,22 +9,14 @@ import Footer from './components/layout/footer';
 
 // Get contents File!
 import Home from './components/contents/home'
+import Skills from './components/contents/skills'
 
 
 const MainContent: React.FC = () => {
   return (
     <main className="main-content">
       <Home/>
-      <section id="skills" className="section">
-        <h2>기술 스택 (Skills)</h2>
-        <ul className="skill-list">
-          <li className="skill-item">TypeScript</li>
-          <li className="skill-item">React</li>
-          <li className="skill-item">Next.js</li>
-          <li className="skill-item">Node.js / Express</li>
-          <li className="skill-item">SQL / MongoDB</li>
-        </ul>
-      </section>
+      <Skills/>
 
 
       <section id="projects" className="section section-alt">
