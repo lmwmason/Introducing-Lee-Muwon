@@ -12,6 +12,7 @@ import { faGithub, faYoutube, faBlogger, faStackOverflow } from "@fortawesome/fr
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 // Import assets
 import Ani from '../../assets/Coding Develio.gif';
 
@@ -95,7 +96,11 @@ const Home: React.FC = () => {
             </a>
         </section>
         <div className="home-image-container">
-            <img src={Ani} alt="Coding GIF" />
+            <DotLottieReact
+            src="https://lottie.host/b61b6e16-6e82-4529-8b4f-bd979f54ce5f/3Qzx9ll39q.lottie"
+            loop
+            autoplay
+            />
         </div>
         </div>
     );

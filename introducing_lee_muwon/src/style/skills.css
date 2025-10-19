@@ -1,9 +1,184 @@
+ .section-alt-skills {
+
+background-color: #ffffff;
+flex-direction: row;
+/*margin-left:45%;*/
+margin-bottom: 25%;
+
+
+}
+
+.section-alt-skills h1 {
+
+font-size: 3.5rem;
+
+font-weight: lighter;
+
+margin-bottom: 2rem;
+
+}
+
+.markdown-container-skills p {
+
+font-size: 23px;
+
+color: rgba(0, 0, 0, 0.425);
+
+line-height: 1.6;
+
+}
+
+
+#skills-list {
+
+display: flex;
+
+flex-direction: row;
+
+flex-wrap: wrap;
+
+gap: 30px;
+
+justify-content: flex-start;
+
+margin-top: 20px;
+
+}
+
+
+.skills_li {
+
+font-size: 3rem;
+
+color: rgba(0, 0, 0, 0.5);
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+margin: 0;
+
+margin-bottom: 5px;
+
+transition: color 0.3s ease;
+
+}
+
+.section-img-skills {
+    flex: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    
+}
+
+
+
+.skills_li:hover > svg {
+
+color: #c300ff;
+
+}
+
+
+.skills_li:hover .skills_li_tx {
+
+color: #c300ff;
+
+}
+
+
+.skills_li > svg {
+
+margin-bottom: 5px;
+
+transition: color 0.3s ease;
+
+}
+
+
+.skills_li_tx {
+
+font-size: 0.8rem;
+
+color: rgba(0, 0, 0, 0.527);
+
+text-align: center;
+
+margin: 0;
+
+transition: color 0.3s ease;
+
+}
+
+
+.skills-image-container {
+
+flex: 2;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-top: 1%;
+
+}
+
+
+
+#skills-container {
+
+display: flex;
+
+flex-direction: row;
+
+align-items: flex-start;
+
+flex-wrap: nowrap;
+
+}
+
+.skills-image-container {
+    width: 200%; 
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.skills-content-container {
+    flex-direction: row;
+}
+
+.skills-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-img-skills {
+    flex: 0 0 90%; 
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+.section-text-skills {
+    flex: 1;
+    padding-right: 5px;
+}
+
 .section-alt-skills {
     background-color: #ffffff;
-    margin-left:50%;
+    margin-left: 0; 
+    padding: 20px 0;
 }
-.section-alt-skills h1 {
-    font-size: 3.5rem;
-    font-weight: lighter;
-    margin-bottom: 2rem;
-}
+
