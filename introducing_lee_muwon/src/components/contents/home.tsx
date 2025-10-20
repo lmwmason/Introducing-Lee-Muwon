@@ -13,8 +13,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-// Import assets
-import Ani from '../../assets/Coding Develio.gif';
 
 const Home: React.FC = () => {
     const [isLoaded, setIsLoaded] = useState(false);

@@ -10,6 +10,7 @@ import Footer from './components/layout/footer';
 // Get contents File!
 import Home from './components/contents/home'
 import Skills from './components/contents/skills'
+import Rates from './components/contents/rates'
 
 
 const MainContent: React.FC = () => {
@@ -17,7 +18,7 @@ const MainContent: React.FC = () => {
     <main className="main-content">
       <Home/>
       <Skills/>
-
+      <Rates />
 
       <section id="projects" className="section section-alt">
         <h2>주요 프로젝트 (Projects)</h2>
