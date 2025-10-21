@@ -11,6 +11,8 @@ import Footer from './components/layout/footer';
 import Home from './components/contents/home'
 import Skills from './components/contents/skills'
 import Rates from './components/contents/rates'
+import Education from './components/contents/education';
+import Achivements from './components/contents/achievements';
 
 
 const MainContent: React.FC = () => {
@@ -19,6 +21,8 @@ const MainContent: React.FC = () => {
       <Home/>
       <Skills/>
       <Rates />
+      <Education />
+      <Achivements />
     </main>
   );
 };

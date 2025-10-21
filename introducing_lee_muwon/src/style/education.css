@@ -1,0 +1,19 @@
+.education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    padding-bottom: 10%;
+}
+
+.edu-div p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.edu-div h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}

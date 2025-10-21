@@ -1,0 +1,91 @@
+.achieve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    padding-bottom: 10%;
+}
+
+.ach-div p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.ach-div h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+/* FinalistCard.css */
+
+/* 전체 카드 컨테이너 */
+.finalist-card {
+    max-width: 400px;
+    margin: 30px; 
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: inline-block; /* 여러 카드를 가로로 나열 */
+    vertical-align: top;
+}
+
+/* 로고 이미지 */
+.finalist-card__logo {
+    height: auto;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+/* Google Code-in 텍스트 (대회 이름) */
+.finalist-card__contest-name {
+    font-size: 24px;
+    font-weight: 400;
+    color: #5f6368;
+    margin: 0 0 5px;
+}
+
+/* Google Code-In Finalist 제목 (주요 타이틀) */
+.finalist-card__title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #202124;
+    margin: 20px 0 20px;
+}
+
+/* 내용 (설명) */
+.finalist-card__description {
+    font-size: 16px;
+    color: #70757a;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* 버튼 컨테이너 */
+.finalist-card__link-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* 개별 버튼 링크 */
+.finalist-card__link-button {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #673ab7; /* 보라색 계열 */
+    color: #ffffff;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+/* 버튼 호버 효과 */
+.finalist-card__link-button:hover {
+    background-color: #5e35b1;
+}
