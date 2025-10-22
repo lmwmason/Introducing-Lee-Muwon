@@ -47,7 +47,6 @@ const Header: React.FC = () => {
         <a href="#education">Education</a>
         <a href="#projects">Projects</a>
         <a href="#achievements">Achievements</a>
-        <a href="#blogs">Blogs</a>
         <a href="#contact">Contact Me</a>
       </nav>
     </header>

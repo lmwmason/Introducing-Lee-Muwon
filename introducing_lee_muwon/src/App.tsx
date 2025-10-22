@@ -13,6 +13,7 @@ import Skills from './components/contents/skills'
 import Rates from './components/contents/rates'
 import Education from './components/contents/education';
 import Achivements from './components/contents/achievements';
+import Contact from './components/contents/contact';
 
 
 const MainContent: React.FC = () => {
@@ -23,6 +24,7 @@ const MainContent: React.FC = () => {
       <Rates />
       <Education />
       <Achivements />
+      <Contact />
     </main>
   );
 };
